@@ -1,9 +1,10 @@
 #include <Wifi.h>
 #include <webServer.h> //webserver
+#include "secrets.h"
 WebServer viona(80);   // object
 
-const char *SSID = "";     // name
-const char *Pass = ""; // password
+const char *SSID = SECRET_SSID;     // name
+const char *Pass = SECRET_PASS; // password
 const int LED=2;
 String page()
 {
