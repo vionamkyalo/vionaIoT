@@ -2,8 +2,8 @@
 #include <webServer.h> //webserver
 WebServer viona(80);   // object
 
-const char *SSID = "ANITAB LAB";     // name
-const char *Pass = "Akirachix@2011"; // password
+const char *SSID = "";     // name
+const char *Pass = ""; // password
 const int LED=2;
 String page()
 {
